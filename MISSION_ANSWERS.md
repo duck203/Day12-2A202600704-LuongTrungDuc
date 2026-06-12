@@ -1,7 +1,7 @@
 # Day 12 Lab - Mission Answers
 
-**Student Name:** Hieu Nguyen
-**Student ID:** 2A202600680
+**Student Name:** Lương Trung Đức
+**Student ID:** 2A202600704
 **Date:** 2026-06-12
 
 ---
