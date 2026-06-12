@@ -13,7 +13,18 @@ MOCK_RESPONSES = {
         "Tôi là AI agent được deploy lên cloud. Câu hỏi của bạn đã được nhận.",
     ],
     "docker": ["Container là cách đóng gói app để chạy ở mọi nơi. Build once, run anywhere!"],
-    "deploy": ["Deployment là quá trình đưa code từ máy bạn lên server để người khác dùng được."],
+    "deploy": [
+        "Cloud deployment là quá trình đưa ứng dụng từ máy local lên hạ tầng cloud như Railway, Render hoặc Cloud Run để người dùng có thể truy cập qua internet. Nó quan trọng vì giúp app chạy ổn định 24/7, dễ scale khi nhiều người dùng, quản lý biến môi trường và secrets an toàn hơn, đồng thời có health check/logs để theo dõi lỗi trong production."
+    ],
+    "deployment": [
+        "Cloud deployment là quá trình đưa ứng dụng từ máy local lên hạ tầng cloud như Railway, Render hoặc Cloud Run để người dùng có thể truy cập qua internet. Nó quan trọng vì giúp app chạy ổn định 24/7, dễ scale khi nhiều người dùng, quản lý biến môi trường và secrets an toàn hơn, đồng thời có health check/logs để theo dõi lỗi trong production."
+    ],
+    "deloyment": [
+        "Cloud deployment là quá trình đưa ứng dụng từ máy local lên hạ tầng cloud như Railway, Render hoặc Cloud Run để người dùng có thể truy cập qua internet. Nó quan trọng vì giúp app chạy ổn định 24/7, dễ scale khi nhiều người dùng, quản lý biến môi trường và secrets an toàn hơn, đồng thời có health check/logs để theo dõi lỗi trong production."
+    ],
+    "cloud": [
+        "Cloud deployment là quá trình đưa ứng dụng từ máy local lên hạ tầng cloud như Railway, Render hoặc Cloud Run để người dùng có thể truy cập qua internet. Nó quan trọng vì giúp app chạy ổn định 24/7, dễ scale khi nhiều người dùng, quản lý biến môi trường và secrets an toàn hơn, đồng thời có health check/logs để theo dõi lỗi trong production."
+    ],
     "health": ["Agent đang hoạt động bình thường. All systems operational."],
 }
 
