@@ -3,7 +3,7 @@
 ## Public URL
 
 ```
-https://aware-respect-production.up.railway.app
+https://duck-production-86fd.up.railway.app
 ```
 
 ## Platform
@@ -12,7 +12,7 @@ https://aware-respect-production.up.railway.app
 
 ## Source Code
 
-https://github.com/Zilexz/day12_ha-tang-cloud_va_deployment  
+https://github.com/duck203/Day12-2A202600704-LuongTrungDuc  
 Subdirectory: `06-lab-complete/`
 
 ## Environment Variables Set
@@ -30,13 +30,13 @@ Subdirectory: `06-lab-complete/`
 
 ### Health Check
 ```bash
-curl https://aware-respect-production.up.railway.app/health
+curl https://duck-production-86fd.up.railway.app/health
 # Expected: {"status":"ok","version":"1.0.0","environment":"production",...}
 ```
 
 ### Authentication required (no key → 401)
 ```bash
-curl -X POST https://aware-respect-production.up.railway.app/ask \
+curl -X POST https://duck-production-86fd.up.railway.app/ask \
   -H "Content-Type: application/json" \
   -d '{"question": "hello"}'
 # Expected: {"detail":"Missing API key..."}
@@ -44,8 +44,8 @@ curl -X POST https://aware-respect-production.up.railway.app/ask \
 
 ### API Test (with authentication)
 ```bash
-curl -X POST https://aware-respect-production.up.railway.app/ask \
-  -H "X-API-Key: day12-secret-key-hieu" \
+curl -X POST https://duck-production-86fd.up.railway.app/ask \
+  -H "X-API-Key: day12-secret-key-duc" \
   -H "Content-Type: application/json" \
   -d '{"question": "What is production deployment?"}'
 # Expected: {"question":"...","answer":"...","model":"gpt-4o-mini","timestamp":"..."}
@@ -53,7 +53,7 @@ curl -X POST https://aware-respect-production.up.railway.app/ask \
 
 ### Readiness check
 ```bash
-curl https://aware-respect-production.up.railway.app/ready
+curl https://duck-production-86fd.up.railway.app/ready
 # Expected: {"ready":true}
 ```
 
